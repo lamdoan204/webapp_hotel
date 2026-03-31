@@ -189,7 +189,7 @@ const Introduction = () => {
           >
             <h2 className="font-serif text-4xl font-bold text-gray-900 mb-6">Chào mừng đến với thiên đường nghỉ dưỡng</h2>
             <p className="text-gray-600 mb-6 leading-relaxed">
-              Tọa lạc tại vị trí đắc địa trên bãi biển Quy Nhơn xinh đẹp, Ocean Harmony Hotel mang đến trải nghiệm nghỉ dưỡng đẳng cấp 5 sao. Với thiết kế tinh tế hòa quyện cùng thiên nhiên, chúng tôi cam kết mang lại cho quý khách những giây phút thư giãn tuyệt đối.
+              Tọa lạc tại vị trí đắc địa trên bãi biển Quy Nhơn xinh đẹp, Ocean Harmony Hotel mang đến trải nghiệm nghỉ dưỡng đẳng cấp 4 sao. Với thiết kế tinh tế hòa quyện cùng thiên nhiên, chúng tôi cam kết mang lại cho quý khách những giây phút thư giãn tuyệt đối.
             </p>
             <p className="text-gray-600 leading-relaxed">
               Hãy để tiếng sóng biển rì rào và dịch vụ tận tâm của chúng tôi làm nên kỳ nghỉ khó quên của bạn.
@@ -204,8 +204,8 @@ const Introduction = () => {
           >
             <div className="aspect-w-16 aspect-h-9 rounded-2xl overflow-hidden shadow-2xl">
               {/* Using a high quality image as a placeholder for the video */}
-              <img 
-                src="https://images.unsplash.com/photo-1542314831-c6a420325142?auto=format&fit=crop&w=1000&q=80" 
+              <img 'imgs\others\z7676713495832_d2d16bed1da1d4ed67134082503dd349.jpg'
+                src="imgs\video_overview\7676735076521.mp4" 
                 alt="Hotel Overview" 
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                 referrerPolicy="no-referrer"
