@@ -15,7 +15,8 @@ const ROOMS = [
     capacity: '2 Người lớn',
     features: ['TV', 'Ban công', 'Wifi miễn phí', 'Phòng tắm riêng'],
     images: [
-      '/imgs/standard_room/z7676698728384_011ed2be08fc06e23405b916093df7db.jpg'
+      '/imgs/standard_room/z7676698728384_011ed2be08fc06e23405b916093df7db.jpg',
+      '/imgs/standard_room/z7676991117962_3964c8a37c62266edc24838bc3ece36c.jpg'
     ]
   },
   {
@@ -68,7 +69,9 @@ const AMENITIES = [
     id: 'spa',
     name: 'Spa & Thư Giãn',
     desc: 'Tái tạo năng lượng với các liệu trình massage chuyên nghiệp và không gian yên tĩnh.',
-    image: '/imgs/others/z7676713495832_d2d16bed1da1d4ed67134082503dd349.jpg'
+    image: ['/imgs/others/z7676713495832_d2d16bed1da1d4ed67134082503dd349.jpg',
+            '/imgs/others/z7676940911048_a6bb246e87c78362e3723ae9e4d3a1d3.jpg'
+          ]
   }
 ];
 
