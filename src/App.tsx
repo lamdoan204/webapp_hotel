@@ -15,8 +15,7 @@ const ROOMS = [
     capacity: '2 Người lớn',
     features: ['TV', 'Ban công', 'Wifi miễn phí', 'Phòng tắm riêng'],
     images: [
-      'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80',
-      'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=80'
+      '/imgs/standard_room/z7676698728384_011ed2be08fc06e23405b916093df7db.jpg'
     ]
   },
   {
@@ -27,8 +26,8 @@ const ROOMS = [
     capacity: '4 Người lớn',
     features: ['Bếp nhỏ', 'Sofa', 'TV', 'Ban công', 'Wifi miễn phí'],
     images: [
-      'https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=800&q=80',
-      'https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=800&q=80'
+      '/imgs/family_room/z7676705625095_d8fc0e191d2173ee9530c3e5efc14347.jpg',
+      '/imgs/family_room/z7676705654166_c827516155b699e89b6879e2078734c4.jpg'
     ]
   },
   {
@@ -39,9 +38,9 @@ const ROOMS = [
     capacity: '2 Người lớn',
     features: ['Bếp cao cấp', 'Sofa', 'TV thông minh', 'Ban công lớn view biển', 'Bồn tắm sục'],
     images: [
-      'https://images.unsplash.com/photo-1618221118493-9cfa1a1c00da?auto=format&fit=crop&w=800&q=80',
-      'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80',
-      'https://images.unsplash.com/photo-1580237072617-771c3ecc4a24?auto=format&fit=crop&w=800&q=80'
+      '/imgs/vip_room/z7676708924766_e660dd3d3a3ea7f7c7ac5c92d849c3cd.jpg',
+      '/imgs/vip_room/z7676708933262_568cc5138e811f6dfe718050c2ccfae1.jpg',
+      
     ]
   }
 ];
@@ -51,7 +50,7 @@ const AMENITIES = [
     id: 'buffet',
     name: 'Nhà hàng Buffet Sáng',
     desc: 'Thưởng thức ẩm thực đa dạng với các món ăn địa phương và quốc tế trong không gian sang trọng.',
-    image: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=800&q=80'
+    image: '/imgs/others/z7676713499286_7b09aec406fc2542d06ecf84dea7c3e3.jpg'
   },
   {
     id: 'rooftop',
@@ -63,13 +62,13 @@ const AMENITIES = [
     id: 'kids',
     name: 'Khu Vui Chơi Trẻ Em',
     desc: 'Không gian an toàn và vui nhộn dành riêng cho các bé với nhiều trò chơi hấp dẫn.',
-    image: 'https://images.unsplash.com/photo-1566454544259-f4b94c3d758c?auto=format&fit=crop&w=800&q=80'
+    image: '/imgs/others/z7676713487136_ccd5abcd219b997cbfa95bdceee38f6d.jpg'
   },
   {
     id: 'spa',
     name: 'Spa & Thư Giãn',
     desc: 'Tái tạo năng lượng với các liệu trình massage chuyên nghiệp và không gian yên tĩnh.',
-    image: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=80'
+    image: '/imgs/others/z7676713495832_d2d16bed1da1d4ed67134082503dd349.jpg'
   }
 ];
 
@@ -204,7 +203,7 @@ const Introduction = () => {
           >
             <div className="aspect-w-16 aspect-h-9 rounded-2xl overflow-hidden shadow-2xl">
               {/* Using a high quality image as a placeholder for the video */}
-              <img imgs/others/z7676713495832_d2d16bed1da1d4ed67134082503dd349.jpg
+              <video  
                 src="/imgs/video_overview/7676735076521.mp4" 
                 alt="Hotel Overview" 
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
