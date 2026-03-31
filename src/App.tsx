@@ -344,16 +344,16 @@ const Amenities = () => {
     className="rounded-2xl overflow-hidden"
   >
     {Array.isArray(amenity.image) ? (
-      <div className="grid grid-cols-2 gap-4">
-        {amenity.image.map((img, i) => (
-          <img
-            key={i}
-            src={img}
-            alt={`${amenity.name} ${i}`}
-            className="w-full h-72 object-cover rounded-xl"
-          />
-        ))}
-      </div>
+      <div className="grid grid-cols-1 gap-4">
+  {amenity.image.map((img, i) => (
+    <img
+      key={i}
+      src={img}
+      alt={`${amenity.name} ${i}`}
+      className="w-full h-72 object-cover rounded-xl"
+    />
+  ))}
+</div>
     ) : (
       <img
         src={amenity.image}
