@@ -329,12 +329,40 @@ const Amenities = () => {
                     transition={{ duration: 0.8, ease: "easeOut" }}
                     className="aspect-w-4 aspect-h-3 rounded-2xl overflow-hidden"
                   >
-                    <img 
+                    {/* <img 
                       src={amenity.image} 
                       alt={amenity.name} 
                       className="w-full h-full object-cover"
                       referrerPolicy="no-referrer"
-                    />
+                    /> */}
+                    <div className="w-full md:w-1/2">
+  <motion.div
+    initial={{ scale: 0.8, opacity: 0 }}
+    whileInView={{ scale: 1, opacity: 1 }}
+    viewport={{ once: true }}
+    transition={{ duration: 0.8, ease: "easeOut" }}
+    className="rounded-2xl overflow-hidden"
+  >
+    {Array.isArray(amenity.image) ? (
+      <div className="grid grid-cols-2 gap-4">
+        {amenity.image.map((img, i) => (
+          <img
+            key={i}
+            src={img}
+            alt={`${amenity.name} ${i}`}
+            className="w-full h-48 object-cover rounded-xl"
+          />
+        ))}
+      </div>
+    ) : (
+      <img
+        src={amenity.image}
+        alt={amenity.name}
+        className="w-full h-full object-cover"
+      />
+    )}
+  </motion.div>
+</div>
                   </motion.div>
                 </div>
                 <div className="w-full md:w-1/2 space-y-4">
