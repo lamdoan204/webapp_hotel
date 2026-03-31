@@ -204,13 +204,16 @@ const Introduction = () => {
             <div className="aspect-w-16 aspect-h-9 rounded-2xl overflow-hidden shadow-2xl">
               {/* Using a high quality image as a placeholder for the video */}
               <video  
-                src="/imgs/video_overview/7676735076521.mp4" 
-                alt="Hotel Overview" 
+                src="/imgs/video_overview/7676735076521.mp4"
+                className="w-full h-full object-cover group-hover:opacity-100"
+                autoPlay
+                muted
+                loop
                 controls
-                className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-                referrerPolicy="no-referrer"
+                playsInline
               />
-              <div className="absolute inset-0 flex items-center justify-center bg-black/20 group cursor-pointer">
+              
+              <div className="absolute inset-0 flex items-center justify-center bg-black/20 pointer-events-none">
                 <div className="w-20 h-20 bg-white/30 backdrop-blur-sm rounded-full flex items-center justify-center group-hover:bg-white/50 transition-colors">
                   <div className="w-0 h-0 border-t-[10px] border-t-transparent border-l-[20px] border-l-white border-b-[10px] border-b-transparent ml-2"></div>
                 </div>
