@@ -350,7 +350,7 @@ const Amenities = () => {
       key={i}
       src={img}
       alt={`${amenity.name} ${i}`}
-      className="w-full h-96 w-96 object-cover rounded-xl"
+      className="w-full h-96 object-cover rounded-xl"
     />
   ))}
 </div>
