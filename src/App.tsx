@@ -206,6 +206,7 @@ const Introduction = () => {
               <video  
                 src="/imgs/video_overview/7676735076521.mp4" 
                 alt="Hotel Overview" 
+                controls
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                 referrerPolicy="no-referrer"
               />
@@ -395,7 +396,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold text-gray-900">Email</h4>
-                  <p className="text-gray-600 mt-1">booking@oceanharmony.com</p>
+                  <p className="text-gray-600 mt-1">oceanharmonyhotelqn@gmail.com</p>
                 </div>
               </div>
               
