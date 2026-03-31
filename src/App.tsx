@@ -204,8 +204,8 @@ const Introduction = () => {
           >
             <div className="aspect-w-16 aspect-h-9 rounded-2xl overflow-hidden shadow-2xl">
               {/* Using a high quality image as a placeholder for the video */}
-              <img 'imgs\others\z7676713495832_d2d16bed1da1d4ed67134082503dd349.jpg'
-                src="imgs\video_overview\7676735076521.mp4" 
+              <img imgs/others/z7676713495832_d2d16bed1da1d4ed67134082503dd349.jpg
+                src="/imgs/video_overview/7676735076521.mp4" 
                 alt="Hotel Overview" 
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                 referrerPolicy="no-referrer"
